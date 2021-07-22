@@ -35,5 +35,7 @@ if __name__ == '__main__':
     # directamente la lambda.
 
     # palabras_len = list(map....)
-
+    len_string = lambda x : len(x)
+    palabras_len = list(map(len_string,palabras))
+    print(palabras_len)
     print("terminamos")
